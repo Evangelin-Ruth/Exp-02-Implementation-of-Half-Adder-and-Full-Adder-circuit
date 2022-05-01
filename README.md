@@ -31,9 +31,9 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 ### Procedure
 
-1.Connect the supply (+5V) to the circuit
-2.Switch ON the main switch
-3.If the output is 1, then the led glows.
+1. Connect the supply (+5V) to the circuit
+2. Switch ON the main switch
+3. If the output is 1, then the led glows.
 ### Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
