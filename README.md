@@ -40,6 +40,7 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: Evangelin.S
 RegisterNumber:  212221230025
 */
+```
 HALF ADDER
 
 module Adder(a,b,sum,carry);
@@ -57,6 +58,7 @@ output sum,carry;
 assign sum = ((a^b)^c);
 assign carry = ((a&b)|(b&c)|(c&a));
 endmodule
+```
 
 ### Output:
 ## Half Adder :
@@ -66,10 +68,10 @@ endmodule
 ### RTL Realization:
 ![image](https://user-images.githubusercontent.com/94219798/166143157-50f7143d-8842-4301-b2c2-071deafde956.png)
 
-### TRUTH TABLE 
+### TRUTH TABLE:
 ![image](https://user-images.githubusercontent.com/94219798/166143172-63ab4593-681f-49b9-b981-6e1dbca9d554.png)
 
-### TIMING DIAGRAM
+### TIMING DIAGRAM:
 ![image](https://user-images.githubusercontent.com/94219798/166143263-d21f1d06-e36d-40e9-bb51-2dc9b3ca417e.png)
 
 ## Full Adder :
